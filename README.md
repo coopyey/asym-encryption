@@ -10,7 +10,7 @@ Take a seed value and the ciphertext file name as parameters and decrypts the gi
 The program will put the user into a looping menu where they can choose to encrypt, decrypt, or quit. As stated above this program will intake a filename and a seed value. Based on your choice it will feed your inputs into the encryption or decryption function and commence encrypting or decrypting the input file based upon the seed value you chose. If you encrypt a file with a seed, then decrypt the output file with the same seed, it will produce the original plaintext.
 ###### Special considerations:
 All input and output files go into the textfiles directory. Please place any input files that you wish to use into this directory. The makefile commands are set to not delete any input options unless they are prefixed with "p_" or "c_", so be sure your input files are not prefixed with that if you run the clean or cleanout command. That being said, the program will automatically prefix any file you encrypt with "c_" so the final name will be "c_<input file>.txt" and will do the same for files you decrypt, except with "p_" so outputted plaintext files will be "p_<input file>.txt". Because of this implementation you may run the program as many times as you wish without recompiling.
-###### How to run:
+###### How to run (on Linux):
 1. From the main directory run "make all"
 2. Run "./prog"
 3. Choose your options & run the program
