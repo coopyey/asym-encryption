@@ -1,4 +1,4 @@
-# Foundations of Network Security Homework 2
+# Asymmetric Encryption Programming Project
 The goal of this homework is to write a C program to implement a simple stream cipher. The program should accept a plaintext file name as user input and an integer seed value. The program should implement a function for encryption and a separate function for decryption.
 ### Objectives of Functions:
 ###### Encryption:
